@@ -1,17 +1,18 @@
 <!DOCTYPE html>
+
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>RiseAdvertising - Undangan Website Murah</title>
+    <title>QD Management (Arull QD) - Undangan Digital Website</title>
     <meta
       name="description"
       content="Buat undangan online digital website cukup pilih tema, edit detail acara, upload foto, semua bisa selesai dalam hitungan menit."
     />
     <meta
       property="og:title"
-      content="RiseAdvertising - Undangan Website Murah"
+      content="QD Management (Arull QD) - Undangan Digital Website"
     />
     <meta
       property="og:description"
@@ -19,9 +20,9 @@
     />
     <meta
       property="og:image"
-      content="https://riseadvertising.webinvit.id/assets/thumbnail.jpg"
+      content="https://leepxwykosxqgrnmurmi.supabase.co/storage/v1/object/public/musik%20undangan/Gemini_Generated_Image_4ih7wh4ih7wh4ih7.png"
     />
-    <meta property="og:url" content="https://riseadvertising.webinvit.id" />
+    <meta property="og:url" content="https://misumoments.webinvit.id" />
 
     <meta property="og:type" content="website" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -29,7 +30,7 @@
       rel="stylesheet"
       href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css"
     />
-    <link rel="stylesheet" href="/assets/theme-8.css" />
+    <link rel="stylesheet" href="/assets/theme-1.css" />
   </head>
   <body>
     <header class="sticky top-0 z-100">
@@ -38,8 +39,8 @@
           class="h-full w-full max-w-6xl px-4 flex items-center justify-between mx-auto"
         >
           <div class="w-50 flex items-center gap-2">
-            <img src="/assets/logo.png" alt="Logo" height="48" width="48" />
-            <span class="text-lg font-bold">RiseAdvertising</span>
+            <img src="assets/Gemini_Generated_Image_4ih7wh4ih7wh4ih7.png" alt="Logo" height="48" width="48" />
+            <span class="text-lg font-bold">Undangan Digital Website</span>
           </div>
           <ul class="hidden lg:flex items-center justify-center grow gap-2">
             <li>
@@ -109,7 +110,7 @@
           </ul>
           <div class="w-50 text-right">
             <a
-              href="https://wa.me/628xxxxxx"
+              href="https://wa.me/628995819988"
               class="btn px-2 sm:px-4 py-2 bg-primary text-white rounded cursor-pointer hover:bg-primary inline-flex items-center justify-center gap-2"
             >
               <span class="sm:hidden">
@@ -169,8 +170,8 @@
         <h2 class="text-4xl font-bold text-center">
           Membuat undangan cetak membutuhkan waktu, biaya, dan sulit dibagikan
           ke tamu yang jauh.
-          <span class="text-gradient">Undangan digital</span> memudahkan Anda
-          menyebarkan informasi acara hanya dengan satu tautan.
+          <span class="text-gradient">QD Management (Arull QD)</span> memudahkan Anda
+          menyebarkan informasi acara hanya dengan satu tautan dan bisa Abadikan Moments Indah Kamu.
         </h2>
       </div>
     </section>
@@ -181,8 +182,8 @@
     >
       <div class="max-w-7xl mx-auto px-6">
         <h2 class="text-4xl font-bold text-center mb-16 max-w-4xl mx-auto">
-          <span class="text-gradient">RiseAdvertising</span> menyediakan
-          berbagai fitur untuk mendukung acara Anda dari A-Z:
+          <span class="text-gradient">QD Management (Arull QD)</span> menyediakan
+          berbagai fitur untuk mendukung acara kamu dari A-Z:
         </h2>
 
         <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-10">
@@ -214,7 +215,7 @@
             </div>
             <h3 class="text-2xl font-bold mb-3">Fitur RSVP & Buku Tamu</h3>
             <p class="opacity-90">
-              Sistem pelacakan RSVP terintegrasi memungkinkan Anda memantau
+              Sistem pelacakan RSVP terintegrasi memungkinkan Kamu memantau
               status kehadiran tamu.
             </p>
           </div>
@@ -230,7 +231,7 @@
             </div>
             <h3 class="text-2xl font-bold mb-3">Galeri Foto & Video</h3>
             <p class="opacity-90">
-              Tampilkan kisah cinta Anda dengan cara yang berkesan dengan foto
+              Tampilkan kisah cinta Kamu dengan cara yang berkesan dengan foto
               dan video prewedding pada undangan.
             </p>
           </div>
@@ -279,21 +280,28 @@
             <h3 class="text-2xl font-bold mb-3">Ucapan & Do'a</h3>
             <p class="opacity-90">
               Lebih dekat dengan tamu undangan, tamu dapat mengirimkan ucapan &
-              Do'a langsung di undangan Anda.
+              Do'a langsung di undangan Kamu.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="tema" class="py-16">
+   <section id="tema" class="py-16">
       <div class="max-w-7xl mx-auto px-6">
         <h2 class="text-4xl font-bold text-center mb-16 max-w-4xl mx-auto">
           Lebih dari <span class="text-gradient">10.000</span> pasangan telah
-          mempercayakan momen spesial mereka kepada
-          <span class="text-gradient">RiseAdvertising</span>. Lihat tema
-          undangan yang telah kami sediakan:
+          mempercayakan momen spesial mereka kepada kita
+          <span class="text-gradient">Kabar Spesial</span>. Lihat tema undangan
+          yang telah kami sediakan:
         </h2>
+
+        <div
+          id="categories"
+          class="flex flex-wrap gap-2 items-center justify-center mb-6"
+        >
+          <!-- render category disini -->
+        </div>
 
         <div
           id="themes"
@@ -331,10 +339,10 @@
               <div
                 class="size-16 flex-none flex items-center justify-center bg-secondary border border-secondary rounded-full"
               >
-                KD
+                AD
               </div>
               <div class="leading-snug">
-                <h3 class="font-bold">Kurt Daniel</h3>
+                <h3 class="font-bold">Anggita Dewi</h3>
                 <div class="flex items-center">
                   <img
                     src="/assets/star.svg"
@@ -387,7 +395,7 @@
                 SN
               </div>
               <div class="leading-snug">
-                <h3 class="font-bold">Syeira Nurwahid</h3>
+                <h3 class="font-bold">Sandi Nugraha</h3>
                 <div class="flex items-center">
                   <img
                     src="/assets/star.svg"
@@ -436,10 +444,10 @@
               <div
                 class="size-16 flex-none flex items-center justify-center bg-secondary border border-secondary rounded-full"
               >
-                NZ
+                GP
               </div>
               <div class="leading-snug">
-                <h3 class="font-bold">Noor Fazri</h3>
+                <h3 class="font-bold">Ghina Putri</h3>
                 <div class="flex items-center">
                   <img
                     src="/assets/star.svg"
@@ -487,11 +495,36 @@
     <section id="tentang" class="py-16 md:py-24">
       <div class="max-w-7xl mx-auto px-6">
         <h2 class="text-4xl font-bold text-center">
-          <span class="text-gradient">RiseAdvertising</span> adalah platform
+          <span class="text-gradient">QD Management (Arull QD)</span> adalah platform
           pembuat undangan digital profesional yang berfokus pada kemudahan,
           keindahan, dan pengalaman pengguna. Kami percaya
-          <span class="text-gradient">setiap momen berharga</span> layak
-          dirayakan dengan tampilan terbaik.
+          <span class="text-gradient">setiap momen berharga</span> 
+        </h2>
+      </div>
+    </section>
+
+    <section id="tentang" class="py-6 md:py-14">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-1xl font-bold text-justify">
+          <span class="text-gradient">QD Management (Arull QD)</span> adalah Pembeda untuk fasilitas terhadap paket
+          pilihan semua paket yang kita siapkan dapat full fitur.
+          <span class="text-gradient">Afi DIgital yakin setiap momen berharga</span> sangat layak
+          dirayakan dengan tampilan terbaik dan di Abadikan Moments Indah Kamu
+          <ul class="opacity-90 list-disc pl-4 text-lg">
+              <li>Bisa satu link untuk 2 Acara sekaligus</li>
+              <li>Revisi Sepuasnya sampai HARI H <span class="text-gradient">Tidak termasuk GANTI TEMA</li>
+              <li>Bisa CUSTOM undangan <span class="text-gradient">Untuk Wedding , Tasyakuran , Birthday , Khitan , Aqiqah , DLL</li>
+              <li>UNLIMITED Nama Tamu <span class="text-gradient">Tidak ada batasan jumlah sebar tamu undangan</li>
+              <li>Bebas Request Musik <span class="text-gradient">Pilih musik sesukamu bisa kirim judul lagu/link youtubenya</li>
+              <li>Album Foto & Gallery Video</li>
+              <li>Navigasi Lokasi <span class="text-gradient">Petunjuk otomatis mempermudah tamu undangan untuk kelokasi</li>
+              <li>Hitung Mundur Acara</li>
+             <li>Fitur Live Streaming</li>
+              <li>Fitur Kirim Angpau & Kado <span class="text-gradient">Support semua rekening indonesia maupun luar negeri</li>
+              <li>Fitur RSVP <span class="text-gradient">kehadiran tamu cek tamu</li>
+              <li>Love Story</li>
+              <li>Kolom Ucapan</li>
+              <li>Teks Tambahan Bisa Sesuai Request <span class="text-gradient">Bisa tambah halaman sesuai kebutuhan</li>
         </h2>
       </div>
     </section>
@@ -512,11 +545,11 @@
           >
             <div class="leading-snug text-center">
               <h3 class="text-2xl uppercase tracking-wider">Basic</h3>
-              <div class="line-through">Rp100.000</div>
-              <div class="text-4xl font-bold">Rp79.000</div>
+              <div class="line-through">Rp200.000</div>
+              <div class="text-4xl font-bold">Rp100.000</div>
             </div>
             <a
-              href="https://wa.me/62812xxxxxxxx?text=Saya+mau+pesan+paket+A"
+              href="https://wa.me/628995819988?text=Saya+mau+pesan+paket+Basic"
               target="_blank"
               rel="nofollow"
               class="btn w-full text-sm sm:text-base inline-flex items-center text-center justify-center rounded h-12 px-2 bg-primary text-white hover:bg-primary"
@@ -524,16 +557,9 @@
               Pesan Paket Basic
             </a>
             <ul class="opacity-90 list-disc pl-4 text-lg">
-              <li>Max 2x Revisi</li>
-              <li>Unlimited Tamu Undangan</li>
-              <li>Bebas Pilih Musik Latar</li>
-              <li>Integrasi Google Maps</li>
-              <li>Amplop Digital</li>
-              <li>RSVP & Ucapan</li>
-              <li>Tanpa Foto</li>
-              <li class="line-through opacity-40">Layar Sapa</li>
-              <li class="line-through opacity-40">Informasi Live Streaming</li>
-            </ul>
+              <li>Dapat Full fitur diatas Hanya saja setelah <span class="text-gradient"> Hari H Acara </span> 7 hari (misal Nikah/Acara 1 Januari maka tanggal 
+                <span class="text-gradient"> 09 Januari </span> tidak bisa diakses lagi undangan digitalnya. 
+                Dihitung setelah acara bukan dari pembuatan jadi bisa pesan sekarang sekarang karena sampai acara pasti aktif.)</li>
           </div>
 
           <!-- Paket 2 -->
@@ -542,28 +568,20 @@
           >
             <div class="leading-snug text-center">
               <h3 class="text-2xl uppercase tracking-wider">Premium</h3>
-              <div class="line-through">Rp120.000</div>
-              <div class="text-4xl font-bold">Rp99.000</div>
+              <div class="line-through">Rp300.000</div>
+              <div class="text-4xl font-bold">Rp150.000</div>
             </div>
             <a
-              href="https://wa.me/62812xxxxxxxx?text=Saya+mau+pesan+paket+Premium"
+              href="https://wa.me/628995819988?text=Saya+mau+pesan+paket+Premium"
               target="_blank"
               rel="nofollow"
               class="btn w-full text-sm sm:text-base inline-flex items-center text-center justify-center rounded h-12 px-2 bg-primary text-white hover:bg-primary"
             >
               Pesan Paket Premium
-            </a>
+           </a>
             <ul class="opacity-90 list-disc pl-4 text-lg">
-              <li>Max 3x Revisi</li>
-              <li>Unlimited Tamu Undangan</li>
-              <li>Bebas Pilih Musik Latar</li>
-              <li>Integrasi Google Maps</li>
-              <li>Amplop Digital</li>
-              <li>RSVP & Ucapan</li>
-              <li>Gleri Foto</li>
-              <li>Layar Sapa</li>
-              <li class="line-through opacity-40">Informasi Live Streaming</li>
-            </ul>
+              <li>Dapat Full fitur diatas <span class="text-gradient"> Undangan Digital Permanen </span> selama kita tetap beroprasi 
+                <span class="text-gradient"> Aktif Selamanya.</li>
           </div>
 
           <!-- Paket 3 -->
@@ -571,30 +589,91 @@
             class="bg-card p-8 rounded shadow-lg hover:shadow-2xl transition duration-300 space-y-6"
           >
             <div class="leading-snug text-center">
-              <h3 class="text-2xl uppercase tracking-wider">Prioritas</h3>
-              <div class="line-through">Rp190.000</div>
-              <div class="text-4xl font-bold">Rp119.000</div>
+              <h3 class="text-2xl uppercase tracking-wider">VIV</h3>
+              <div class="line-through">Rp400.000</div>
+              <div class="text-4xl font-bold">Rp200.000</div>
             </div>
             <a
-              href="https://wa.me/62812xxxxxxxx?text=Saya+mau+pesan+paket+Prioritas"
+              href="https://wa.me/628995819988?text=Saya+mau+pesan+paket+VIV"
               target="_blank"
               rel="nofollow"
               class="btn w-full text-sm sm:text-base inline-flex items-center text-center justify-center rounded h-12 px-2 bg-primary text-white hover:bg-primary"
             >
-              Pesan Paket Prioritas
+              Pesan Paket VIV
             </a>
             <ul class="opacity-90 list-disc pl-4 text-lg">
-              <li>Max 6x Revisi</li>
-              <li>Unlimited Tamu Undangan</li>
-              <li>Bebas Pilih Musik Latar</li>
-              <li>Integrasi Google Maps</li>
-              <li>Amplop Digital</li>
-              <li>RSVP & Ucapan</li>
-              <li>Gleri Foto & Video</li>
-              <li>Layar Sapa</li>
-              <li>Informasi Live Streaming</li>
-            </ul>
+              <li>Dapat Full fitur Premium diatas <span class="text-gradient"> Dapat Ganti Tema </span> jadi misalkan ketika selesai di proses
+                temanya kurang cocok bisa diganti dengan pilihan tema lainya. <span class="text-gradient"> Dapat Filter IG jika Mau </span>
+                <span class="text-gradient"> Revisi Prioritas </span> tidak mengantri dan bisa masukan foto dan video setelah pernikahan.</li>
           </div>
+
+<!-- Paket 4 -->
+          <div
+            class="bg-card p-8 rounded shadow-lg hover:shadow-2xl transition duration-300 space-y-6"
+          >
+            <div class="leading-snug text-center">
+              <h3 class="text-2xl uppercase tracking-wider">Eklusif</h3>
+              <div class="line-through">Rp500.000</div>
+              <div class="text-4xl font-bold">Rp250.000</div>
+            </div>
+            <a
+              href="https://wa.me/628995819988?text=Saya+mau+pesan+paket+Eklusif"
+              target="_blank"
+              rel="nofollow"
+              class="btn w-full text-sm sm:text-base inline-flex items-center text-center justify-center rounded h-12 px-2 bg-primary text-white hover:bg-primary"
+            >
+              Pesan Paket Eklusif
+            </a>
+            <ul class="opacity-90 list-disc pl-4 text-lg">
+              <li>Dapat Full fitur VIV diatas <span class="text-gradient"> Dapat Export Undangan Digital Ke Video.
+                </span> Jadi dapat Undangan Digital Dan Undangan Video MP.4 HD.</li>
+          </div>
+
+          <!-- Paket 5 -->
+          <div
+            class="bg-card p-8 rounded shadow-lg hover:shadow-2xl transition duration-300 space-y-6"
+          >
+            <div class="leading-snug text-center">
+              <h3 class="text-2xl uppercase tracking-wider">Eklusif</h3>
+              <div class="line-through">Rp600.000</div>
+              <div class="text-4xl font-bold">Rp300.000</div>
+            </div>
+            <a
+              href="https://wa.me/628995819988?text=Saya+mau+pesan+paket+Eklusif"
+              target="_blank"
+              rel="nofollow"
+              class="btn w-full text-sm sm:text-base inline-flex items-center text-center justify-center rounded h-12 px-2 bg-primary text-white hover:bg-primary"
+            >
+              Pesan Paket Ambasador
+            </a>
+            <ul class="opacity-90 list-disc pl-4 text-lg">
+              <li>Dapat Full fitur Eklusif diatas <span class="text-gradient"> Dapat WA Blast.
+                </span> Kirim udangan ratusan bahkan ribuan satu klik selama 10 Hari</li>
+          </div>
+
+
+<!-- Paket 6 -->
+          <div
+            class="bg-card p-8 rounded shadow-lg hover:shadow-2xl transition duration-300 space-y-6"
+          >
+            <div class="leading-snug text-center">
+              <h3 class="text-2xl uppercase tracking-wider">Costum Tema</h3>
+              <div class="line-through">Rp1.000.000</div>
+              <div class="text-4xl font-bold">Rp400.000</div>
+            </div>
+            <a
+              href="https://wa.me/628995819988?text=Saya+mau+pesan+paket+Costum+tema"
+              target="_blank"
+              rel="nofollow"
+              class="btn w-full text-sm sm:text-base inline-flex items-center text-center justify-center rounded h-12 px-2 bg-primary text-white hover:bg-primary"
+            >
+              Pesan Paket Costum Tema
+            </a>
+            <ul class="opacity-90 list-disc pl-4 text-lg">
+              <li>Dapat Full fitur Premium diatas <span class="text-gradient"> Dapat Costum Tema Suka-Suka
+                </span> Proses Pengerjaan 1-7 hari Tergantung Kesulitan</li>
+          </div>
+          
         </div>
       </div>
     </section>
@@ -626,7 +705,7 @@
             </summary>
             <p class="mt-4">
               Tidak ada batas untuk kirim undangan. Cukup satu undangan kirim
-              sepuasnya.
+              sepuasnya unlimited tanpa batas.
             </p>
           </details>
 
@@ -652,7 +731,7 @@
               </svg>
             </summary>
             <p class="mt-4">
-              Kurang lebih 1 jam kerja, undangan kamu sudah siap dibagikan.
+              Basic & Premium Pengerjaan 1x24jam jika VIV, Eklusif, Ambasador 3Jam, undangan kamu sudah siap dibagikan.
             </p>
           </details>
 
@@ -678,8 +757,8 @@
               </svg>
             </summary>
             <p class="mt-4">
-              Kamu bisa request revisi sebanyak 3x untuk setiap undangan yang
-              kamu buat.
+              Tidak ada batasan revisi setiap paket yang anda pilih hanya ada batas waktu sampai hari H Acara
+              kecuali VIV, Eklusif, dan Ambasador tidak ada masa aktif revisi.
             </p>
           </details>
         </div>
@@ -688,26 +767,41 @@
 
     <!-- Footer -->
     <footer class="py-8 text-center text-zinc-500">
-      <p>&copy; RiseAdvertising - Satu Momen Undangan Website</p>
+      <p>&copy; QD Management (Arull QD) - Undangan Digital Website</p>
       <p class="text-xs mt-2">
-        Jl. Sultan Adam, Komp. Mahligai No. 27 RT 009 RW 001 Kota Banjarmasin
+         Pandaksari Caruban 002/004 Kec. Ringinarum Kab. Kendal
       </p>
     </footer>
 
     <script>
       const baseUrl = "https://webinvit.id";
-      const phoneNumber = "628xxxxxx";
+      const phoneNumber = "628995819988";
 
+      const categoryUrl = baseUrl + "/seller/api/v1/categories";
       let nextPageUrl = baseUrl + "/seller/api/v1/products/websites?limit=12"; // halaman awal
       let isLoading = false;
+      let currentCategoryId = null;
 
-      async function loadThemes() {
-        if (!nextPageUrl || isLoading) return;
+      async function loadThemes(reset = false) {
         isLoading = true;
 
         const container = document.getElementById("themes");
         const btn = document.getElementById("loadMore");
         btn.textContent = "Loading...";
+
+        if (reset) {
+          container.innerHTML = "";
+          nextPageUrl = `${baseUrl}/seller/api/v1/products/websites?limit=12`;
+          if (currentCategoryId) {
+            nextPageUrl += `&categoryId=${currentCategoryId}`;
+          }
+        }
+
+        if (!nextPageUrl) {
+          isLoading = false;
+          btn.style.display = "none";
+          return;
+        }
 
         try {
           const response = await fetch(nextPageUrl);
@@ -718,7 +812,9 @@
 
           // Simpan URL untuk halaman berikutnya
           nextPageUrl = result.data?.next_page_url || null;
+          if (nextPageUrl) nextPageUrl = nextPageUrl.replace("http:", "https:");
 
+                  
           // Render setiap tema
           themes.forEach((theme) => {
             const card = document.createElement("div");
@@ -729,15 +825,15 @@
                 </div>
                 <div class="p-2 sm:p-4">
                   <h3 class="font-bold leading-tight mb-3">${theme.name}</h3>
-                  <div class="grid gap-2 sm:grid-cols-2">
+                  <div class="grid gap-2 ">
                     <a
-                      href="${baseUrl}/${theme.slug}"
+                      href="${baseUrl}/preview/${theme.slug}"
                       target="_blank"
                       rel="nofollow"
                       class="btn text-sm sm:text-base inline-flex items-center text-center justify-center rounded h-8 px-2 bg-secondary text-black hover:bg-secondary"
                     >
                       Preview
-                    </a>
+                             </a>
                     <a
                       href="https://wa.me/${phoneNumber}?text=Saya+mau+pesan+tema+${theme.name}"
                       target="_blank"
@@ -745,13 +841,14 @@
                       class="btn text-sm sm:text-base inline-flex items-center text-center justify-center rounded h-8 px-2 bg-primary text-white hover:bg-primary"
                     >
                       Pesan
-                    </a>
+                            </a>    
                   </div>
                 </div>
               </div>
             `;
             container.appendChild(card);
           });
+     
 
           // Jika sudah tidak ada halaman berikutnya
           if (!nextPageUrl) {
@@ -762,14 +859,50 @@
           alert("Terjadi kesalahan saat memuat data.");
         } finally {
           isLoading = false;
+          reset = false;
           btn.textContent = "Load More Themes";
         }
       }
 
       // Event listener tombol
-      document.getElementById("loadMore").addEventListener("click", loadThemes);
+      document
+        .getElementById("loadMore")
+        .addEventListener("click", () => loadThemes());
+
+      // Fetch categories
+      async function loadCategories() {
+        const categoriesContainer = document.getElementById("categories");
+
+        try {
+          const response = await fetch(categoryUrl);
+          if (!response.ok) throw new Error("Gagal mengambil data kategori");
+
+          const result = await response.json();
+          const categories = result.data || [];
+
+          categories.forEach((category) => {
+            const buttonCategory = document.createElement("button");
+            buttonCategory.className =
+              "btn text-sm sm:text-base inline-flex items-center text-center justify-center rounded h-8 px-2 bg-secondary hover:bg-secondary m-1 hover:cursor-pointer";
+            buttonCategory.textContent = category.name;
+
+            // Saat tombol diklik, set categoryId dan muat ulang tema
+            buttonCategory.addEventListener("click", () => {
+              currentCategoryId = category.id;
+              isLoading = false;
+              loadThemes(true);
+              console.log("click");
+            });
+
+            categoriesContainer.appendChild(buttonCategory);
+          });
+        } catch (error) {
+          console.error(error);
+        }
+      }
 
       // Load pertama kali
+      loadCategories();
       loadThemes();
     </script>
   </body>
